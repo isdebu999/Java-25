@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning DOM</title>
+</head>
+<body>
+    <h1>Learning DOM!</h1>
+    <label>Enter the Task Here !</label>
+    <br>
+    <br>
+    <input type="input" id="input" placeholder="Enter Task...">
+
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="list"></ul>
+</body>
+<script>
+    function addTask(){
+        const task = document.getElementById("input");
+        const freshTask = task.value.trim();
+
+        if(freshTask === ""){
+            let error = document.getElementById("error");
+
+            if(!error){
+                error = document.createElement("p");
+                error.id = "error";
+                error.style.color = "red";
+                error.textContent = "Enter a Task First!";
+                document.body.appendChild(error);
+            }
+            return;
+        }
+        const list = document.getElementById("list");
+        const li = document.createElement("li");
+        li.textContent = freshTask;
+        list.appendChild(li);
+        document.getElementById("input").value = "";
+    }
+</script>
+</html>

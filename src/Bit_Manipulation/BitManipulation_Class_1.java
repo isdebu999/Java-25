@@ -1,6 +1,7 @@
 package Bit_Manipulation;
 
 public class BitManipulation_Class_1 {
+
     public static void main(String[] args) {
         System.out.print("Print the Original Bit : ");
           printBits(12);

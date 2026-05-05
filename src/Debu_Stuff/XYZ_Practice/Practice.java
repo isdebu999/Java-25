@@ -1,4 +1,4 @@
-package XYZ_Practice;
+package Debu_Stuff.XYZ_Practice;
 
 public class Practice {
     public static void main(String[] args) {

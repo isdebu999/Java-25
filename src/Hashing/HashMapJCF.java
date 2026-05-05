@@ -22,6 +22,7 @@ class MyCollege{
         return this.regNo == clg.regNo;
     }
 }
+
 class MyRanking{
     int rank;
     MyRanking(int rank){

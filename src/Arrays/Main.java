@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         int[]arr = {12, 3, 4, 11, 15};
         int[]nums = {1,0,0,1,0,0,1,1};
 

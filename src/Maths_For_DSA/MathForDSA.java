@@ -15,6 +15,7 @@ public class MathForDSA {
         oddEven(7); //checking for odd | even.
         reverseNumber(6295); // Reverse a number..
         power(2, 4); // cal the 2^4
+
     }
 
 

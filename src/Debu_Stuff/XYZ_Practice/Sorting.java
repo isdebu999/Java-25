@@ -1,4 +1,4 @@
-package XYZ_Practice;
+package Debu_Stuff.XYZ_Practice;
 import java.util.ArrayList;
 import java.util.Arrays;
 
