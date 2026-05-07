@@ -8,12 +8,11 @@ public class EstablishConnectionsUsingJDBC {
     public static void main(String[] args) {
         try {
 
-            //Step-1
+            //Step:1
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Driver loaded...");
 
-            //Step-2
-
+            //Step:2
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/jdbc_learning",
                      "root",
