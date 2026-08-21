@@ -2,6 +2,7 @@ package Hashing;
 import java.util.HashMap;
 
 public class QuestionOnHashing {
+
     //Q1: mostFrqNumber in the array.
     public  int mostFrqNumber(int[]nums){
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -47,6 +48,5 @@ public class QuestionOnHashing {
         }
         return cnt;*/
     }
-
 
 }
